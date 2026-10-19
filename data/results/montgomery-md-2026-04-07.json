@@ -1,0 +1,2455 @@
+{
+  "status": "verified",
+  "label": "Research estimate",
+  "lai": 1.20430588722229,
+  "units": "m\u00b2 leaf area per m\u00b2 ground area",
+  "model_sha256": "815ed3b7cb92b95d598e24385527874864c5e6e282cf05d7dabbcca26391d4c6",
+  "features": {
+    "brfBand2RedMeanHour15": 0.0693249982487032,
+    "brfBand2RedStdHour15": 0.003293807237608277,
+    "brfBand3NirMeanHour15": 0.26282499336048204,
+    "brfBand3NirStdHour15": 0.010588790976079133,
+    "brfBand5SwirMeanHour15": 0.21664999452696065,
+    "brfBand5SwirStdHour15": 0.0030027764171024047,
+    "brfBand2RedMeanHour18": 0.07323999814980198,
+    "brfBand2RedStdHour18": 0.002207487203540563,
+    "brfBand3NirMeanHour18": 0.27915999294782523,
+    "brfBand3NirStdHour18": 0.013413723976184726,
+    "brfBand5SwirMeanHour18": 0.23665999402146554,
+    "brfBand5SwirStdHour18": 0.006406090689850236,
+    "brfBand2RedMeanHour21": 0.05504999860932003,
+    "brfBand2RedStdHour21": 0.0027819057512778606,
+    "brfBand3NirMeanHour21": 0.23284999411771423,
+    "brfBand3NirStdHour21": 0.018827718451528128,
+    "brfBand5SwirMeanHour21": 0.1799833287865719,
+    "brfBand5SwirStdHour21": 0.0029687819423734672,
+    "viewZenithDeg": 45.385860443115234,
+    "viewAzimuthSin": 0.0564705039718864,
+    "viewAzimuthCos": -0.9984042679101293,
+    "dayOfYearSin": 0.9952176027737294,
+    "dayOfYearCos": -0.09768276782171598,
+    "solarZenithDegMeanHour15": 41.74742889404297,
+    "solarZenithDegStdHour15": 0.5709683708146774,
+    "solarAzimuthSinMeanHour15": 0.7715525109925556,
+    "solarAzimuthCosMeanHour15": 0.6361317690037587,
+    "relativeAzimuthSinMeanHour15": 0.8062439816384898,
+    "relativeAzimuthCosMeanHour15": -0.5915467407199579,
+    "solarZenithDegMeanHour18": 33.36484222412109,
+    "solarZenithDegStdHour18": 0.8877915530282455,
+    "solarAzimuthSinMeanHour18": -0.4272002240060596,
+    "solarAzimuthCosMeanHour18": 0.9040426585550803,
+    "relativeAzimuthSinMeanHour18": 0.37546678235912373,
+    "relativeAzimuthCosMeanHour18": -0.9267242606207369,
+    "solarZenithDegMeanHour21": 60.79942385355631,
+    "solarZenithDegStdHour21": 0.47051133102162374,
+    "solarAzimuthSinMeanHour21": -0.9691479029452638,
+    "solarAzimuthCosMeanHour21": 0.24605011721143755,
+    "relativeAzimuthSinMeanHour21": 0.9537068284154313,
+    "relativeAzimuthCosMeanHour21": -0.3003857576463027,
+    "igbpClass_1": 0.0,
+    "igbpClass_10": 0.0,
+    "igbpClass_11": 0.0,
+    "igbpClass_12": 0.0,
+    "igbpClass_13": 0.0,
+    "igbpClass_14": 0.0,
+    "igbpClass_16": 0.0,
+    "igbpClass_2": 0.0,
+    "igbpClass_3": 0.0,
+    "igbpClass_4": 1.0,
+    "igbpClass_5": 0.0,
+    "igbpClass_6": 0.0,
+    "igbpClass_7": 0.0,
+    "igbpClass_8": 0.0,
+    "igbpClass_9": 0.0
+  },
+  "provenance": {
+    "requested_location": {
+      "latitude": 39.1547,
+      "longitude": -77.2405
+    },
+    "sampled_pixel_center": {
+      "latitude": 39.1502685546875,
+      "longitude": -77.2435531616211
+    },
+    "composite": {
+      "start": "2026-04-07",
+      "end": "2026-04-14"
+    },
+    "igbp": {
+      "class": 4,
+      "source": "S-NPP_VIIRS_GST_IGBP_8-Year_30arcsec.nc"
+    },
+    "navigation": {
+      "verified_for_exact_pixel": true,
+      "source": "GOES_Navigation_2kmFD-GOES-East.nc",
+      "source_path": "https://media.githubusercontent.com/media/yiksinl/LAI-CAC/0d808c653be4cd45d0cd655b33e0874e9b326509/artifacts/reference/GOES_Navigation_2kmFD-GOES-East.nc",
+      "source_sha256": "c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96",
+      "goes_row": 797,
+      "goes_column": 2619,
+      "array_orientation": "row_column",
+      "notebook_reported_array_orientation": "row_column",
+      "orientation_check": {
+        "method": "notebook latitude-plus-wrapped-longitude error comparison at exact pixel",
+        "row_column": {
+          "score_degrees": 0.007481207659182587,
+          "pixel": {
+            "dataset_indices": [
+              797,
+              2619
+            ],
+            "latitude": 39.15026956927703,
+            "longitude": -77.24355094783465,
+            "local_zenith_angle": 45.385858840356114,
+            "land_mask": 1.0
+          }
+        },
+        "column_row": {
+          "score_degrees": 74.07853414018862,
+          "pixel": {
+            "dataset_indices": [
+              2619,
+              797
+            ],
+            "latitude": 1.7431137536994001,
+            "longitude": -113.90744806478645,
+            "local_zenith_angle": 45.09029333558558,
+            "land_mask": 7.0
+          }
+        }
+      },
+      "variables": {
+        "Latitude": {
+          "shape": [
+            5424,
+            5424
+          ],
+          "dtype": "float64",
+          "attributes": [
+            "_FillValue",
+            "units",
+            "long_name",
+            "valid_range"
+          ]
+        },
+        "Longitude": {
+          "shape": [
+            5424,
+            5424
+          ],
+          "dtype": "float64",
+          "attributes": [
+            "_FillValue",
+            "units",
+            "long_name",
+            "valid_range"
+          ]
+        },
+        "LocalZenithAngle": {
+          "shape": [
+            5424,
+            5424
+          ],
+          "dtype": "float64",
+          "attributes": [
+            "_FillValue",
+            "units",
+            "long_name",
+            "valid_range"
+          ]
+        },
+        "LandMask": {
+          "shape": [
+            5424,
+            5424
+          ],
+          "dtype": "int8",
+          "attributes": [
+            "_FillValue",
+            "long_name",
+            "valid_range",
+            "flag_meanings",
+            "flag_values",
+            "units"
+          ]
+        }
+      },
+      "land_mask_attributes": {
+        "_FillValue": -1,
+        "long_name": "ABI fixed grid land-sea mask classification",
+        "valid_range": [
+          0,
+          7
+        ],
+        "flag_meanings": "shallow oceanlandocean coastlines and lake shorelinesshallow inland waterephemeral waterdeep inland watermoderate or continental oceandeep ocean",
+        "flag_values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "units": "1"
+      },
+      "raster_pixel": {
+        "latitude": 39.1502685546875,
+        "longitude": -77.2435531616211,
+        "local_zenith_angle": 45.385860443115234,
+        "land_mask": 1.0,
+        "dataset_indices": [
+          797,
+          2619
+        ],
+        "conversion": "raster scalars assigned to float32 arrays as in notebook Cell 2"
+      },
+      "projection_derived_pixel": {
+        "latitude": 39.150265776691576,
+        "longitude": -77.24354489634419,
+        "calculated_view_zenith": 45.34382629394531,
+        "calculated_view_azimuth": 176.7627716064453
+      },
+      "comparison": {
+        "requested_latitude_error_degrees": 0.00443267822265625,
+        "requested_longitude_error_degrees": 0.0030517578125,
+        "raster_minus_projection_latitude_degrees": 2.777995923963772e-06,
+        "raster_minus_projection_longitude_degrees": -8.26527690378498e-06,
+        "raster_minus_projection_view_zenith_degrees": 0.042034149169921875,
+        "raster_minus_calculated_view_zenith_degrees": 0.04203033447265625,
+        "notebook_reported_median_absolute_view_zenith_difference_degrees": 0.1359
+      },
+      "feature_geometry": {
+        "latitude": 39.1502685546875,
+        "longitude": -77.2435531616211,
+        "view_zenith": 45.385860443115234,
+        "view_azimuth": 176.76275634765625,
+        "view_zenith_source": "navigation raster LocalZenithAngle",
+        "view_azimuth_source": "notebook calculateViewGeometry scalar translation",
+        "calculated_view_zenith_check": 45.34383010864258
+      },
+      "retrieval": {
+        "route": "remote_http_byte_ranges",
+        "remote_object": {
+          "descriptor_version": 1,
+          "name": "GOES_Navigation_2kmFD-GOES-East.nc",
+          "url": "https://media.githubusercontent.com/media/yiksinl/LAI-CAC/0d808c653be4cd45d0cd655b33e0874e9b326509/artifacts/reference/GOES_Navigation_2kmFD-GOES-East.nc",
+          "size_bytes": 735508871,
+          "sha256": "c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96",
+          "etag": "\"c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96\"",
+          "git_commit": "0d808c653be4cd45d0cd655b33e0874e9b326509",
+          "format": "netCDF-4/HDF5; contiguous uncompressed arrays",
+          "shape": [
+            5424,
+            5424
+          ],
+          "array_order": "C",
+          "variables": {
+            "LandMask": {
+              "offset": 10116,
+              "dtype": "<i1",
+              "itemsize": 1
+            },
+            "Latitude": {
+              "offset": 29429892,
+              "dtype": "<f8",
+              "itemsize": 8
+            },
+            "LocalZenithAngle": {
+              "offset": 264788688,
+              "dtype": "<f8",
+              "itemsize": 8
+            },
+            "Longitude": {
+              "offset": 500147480,
+              "dtype": "<f8",
+              "itemsize": 8
+            }
+          }
+        },
+        "metadata": {
+          "http_status": 200,
+          "etag": "\"c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96\"",
+          "content_length": 735508871,
+          "accept_ranges": "bytes",
+          "identity_verified": true,
+          "source": "process_cache",
+          "request_count": 0,
+          "payload_bytes": 0,
+          "latency_seconds": 0.0
+        },
+        "range_cache": {
+          "cache_key": "65d7b861fe5ef258216fa76b4323d75cf80b8a0025f9aae672e342e66a6a2729",
+          "path": "navigation-cache/65d7b861fe5ef258216fa76b4323d75cf80b8a0025f9aae672e342e66a6a2729",
+          "request_count": 0,
+          "downloaded_payload_bytes": 0,
+          "cache_hit_count": 8,
+          "cache_hit_bytes": 50,
+          "operation_wall_seconds": 0.002002,
+          "ranges": [
+            {
+              "start": 4335663,
+              "end": 4335663,
+              "bytes": 1,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+            },
+            {
+              "start": 14216369,
+              "end": 14216369,
+              "bytes": 1,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "ca358758f6d27e6cf45272937977a748fd88391db679ceda7dc7bf1f005ee879"
+            },
+            {
+              "start": 64034268,
+              "end": 64034275,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "a452097b03e1167c780e4ad43414c2c8e28a43c049c820f60b5572e932295b9c"
+            },
+            {
+              "start": 143079916,
+              "end": 143079923,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "445b094572afbcfa616511610ab7c1d18d8c963567d6463bd9b2adc9f880bbd0"
+            },
+            {
+              "start": 299393064,
+              "end": 299393071,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "2a4899fda0906dcebf6fee42cc2c6c2508437aafc19b6fc2ded1e65987ea52b0"
+            },
+            {
+              "start": 378438712,
+              "end": 378438719,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "a257ef09a910cab91f58d4cc392b8ed8c58e1c877ac58a11b315b1c2526b6159"
+            },
+            {
+              "start": 534751856,
+              "end": 534751863,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "cb7a4859abe4df8a180aad11bb609351ba3cd958b44438784c8bacb59ac5e225"
+            },
+            {
+              "start": 613797504,
+              "end": 613797511,
+              "bytes": 8,
+              "source": "cache",
+              "latency_seconds": 0.0,
+              "sha256": "8dcce4662d698435181212383c7141192069f73251673f04ebf3d92cce83959d"
+            }
+          ],
+          "partial_data_sha256": "1722cfd5a19d6f7da2b68b3068b862dbc60998eedf7657d02c70048ad23824c0",
+          "checksum_scope": "SHA-256 over the ordered exact offsets and bytes used for this navigation sample; not a whole-file checksum"
+        },
+        "startup_through_result": {
+          "metadata_request_count": 1,
+          "metadata_payload_bytes": 0,
+          "metadata_latency_seconds": 0.293857,
+          "range_request_count": 0,
+          "range_payload_bytes": 0,
+          "range_request_seconds": 0.0,
+          "range_cache_hit_count": 8,
+          "range_cache_hit_bytes": 50,
+          "range_operation_count": 1,
+          "range_operation_wall_seconds": 0.002002,
+          "total_http_request_count": 1,
+          "total_http_payload_bytes": 0,
+          "navigation_latency_seconds": 0.295858,
+          "full_file_fallbacks": 0
+        },
+        "full_file_fallbacks": 0,
+        "failure_semantics": "Any metadata, identity, range, or response-size failure aborts navigation; a complete-file download is never attempted."
+      }
+    },
+    "solar_geometry": {
+      "method": "geometry_goes19.calculate_solar_angles",
+      "source": "geometry_goes19.py",
+      "sha256": "1ebf9fe03be6de656554dbf5f094928b9f49265e291cf8cd53ecb9597e06e0bd",
+      "coordinate_source": "navigation-raster Latitude/Longitude at the exact sampled GOES row and column",
+      "coordinate_conversion": "navigation scalars assigned to float32, then passed as float64 helper arrays",
+      "timestamp_source": "GOES t variable decoded with its CF units and calendar as UTC",
+      "output_conversion": "solar zenith and azimuth cast to float32; azimuth modulo 360"
+    },
+    "attempts": [
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 147,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07479999811039306,
+          "3": 0.25259999361878727,
+          "5": 0.21899999446759466
+        },
+        "time_coverage_start": "2026-04-07T15:00:21.1Z",
+        "time_coverage_end": "2026-04-07T15:09:52.0Z",
+        "scan_time_utc": "2026-04-07T15:05:06.591278+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/097/15/OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/097/15/OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/097/15/OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+            "size_bytes": 37471131,
+            "etag": "\"7d26b2a2312151936a4095ca4c11e516\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T15:09:32.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+            "size_bytes": 37471131,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-07",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/097/15/OR_ABI-L2-BRFF-M6_G19_s20260971500211_e20260971509520_c20260971515065.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 42.84249496459961,
+        "solar_azimuth": 49.67524337768555,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07109999820386292,
+          "3": 0.26969999318680493,
+          "5": 0.2435999938461464
+        },
+        "time_coverage_start": "2026-04-07T18:00:20.9Z",
+        "time_coverage_end": "2026-04-07T18:09:51.7Z",
+        "scan_time_utc": "2026-04-07T18:05:06.371253+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/097/18/OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/097/18/OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/097/18/OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+            "size_bytes": 39266044,
+            "etag": "\"495010f6f1a958f43b777cc5fc036de8\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T15:27:15.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+            "size_bytes": 39266044,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-07",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/097/18/OR_ABI-L2-BRFF-M6_G19_s20260971800209_e20260971809517_c20260971814512.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 34.34491729736328,
+        "solar_azimuth": 335.7112731933594,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.05349999864847632,
+          "3": 0.2219999943918083,
+          "5": 0.17879999548313208
+        },
+        "time_coverage_start": "2026-04-07T21:00:20.9Z",
+        "time_coverage_end": "2026-04-07T21:09:51.7Z",
+        "scan_time_utc": "2026-04-07T21:05:06.381033+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/097/21/OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/097/21/OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/097/21/OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+            "size_bytes": 19764815,
+            "etag": "\"aca068c2ce91dc255a2733e2712fb165\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T15:25:11.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+            "size_bytes": 19764815,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-07",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/097/21/OR_ABI-L2-BRFF-M6_G19_s20260972100209_e20260972109517_c20260972114548.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 61.34085464477539,
+        "solar_azimuth": 285.2935485839844,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.06639999832259491,
+          "3": 0.25339999359857757,
+          "5": 0.2161999945383286
+        },
+        "time_coverage_start": "2026-04-08T15:00:21.2Z",
+        "time_coverage_end": "2026-04-08T15:09:52.0Z",
+        "scan_time_utc": "2026-04-08T15:05:06.679654+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/098/15/OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/098/15/OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/098/15/OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+            "size_bytes": 37723622,
+            "etag": "\"a56851460062ce23e828666ab1cbf845\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T15:15:08.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+            "size_bytes": 37723622,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-08",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/098/15/OR_ABI-L2-BRFF-M6_G19_s20260981500212_e20260981509520_c20260981514446.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 42.50139236450195,
+        "solar_azimuth": 49.9238166809082,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07569999808765715,
+          "3": 0.26799999322975054,
+          "5": 0.2395999939471949
+        },
+        "time_coverage_start": "2026-04-08T18:00:21.0Z",
+        "time_coverage_end": "2026-04-08T18:09:51.8Z",
+        "scan_time_utc": "2026-04-08T18:05:06.462070+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/098/18/OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/098/18/OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/098/18/OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+            "size_bytes": 39496421,
+            "etag": "\"03b1c0a92b1f134014b5da7dc5e5bbe3\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T18:15:14.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+            "size_bytes": 39496421,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-08",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/098/18/OR_ABI-L2-BRFF-M6_G19_s20260981800210_e20260981809518_c20260981814455.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 34.01317596435547,
+        "solar_azimuth": 335.3807373046875,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.056599998570163734,
+          "3": 0.21829999448527815,
+          "5": 0.17889999548060587
+        },
+        "time_coverage_start": "2026-04-08T21:00:21.0Z",
+        "time_coverage_end": "2026-04-08T21:09:51.8Z",
+        "scan_time_utc": "2026-04-08T21:05:06.474249+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/098/21/OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/098/21/OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/098/21/OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+            "size_bytes": 19803811,
+            "etag": "\"8abc81bcc14fd2b56560805dd444140d\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-08T21:15:10.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+            "size_bytes": 19803811,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-08",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/098/21/OR_ABI-L2-BRFF-M6_G19_s20260982100210_e20260982109518_c20260982114526.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 61.14717483520508,
+        "solar_azimuth": 284.9207458496094,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07349999814323382,
+          "3": 0.24709999375772895,
+          "5": 0.2114999946570606
+        },
+        "time_coverage_start": "2026-04-09T15:00:21.3Z",
+        "time_coverage_end": "2026-04-09T15:09:52.2Z",
+        "scan_time_utc": "2026-04-09T15:05:06.792540+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/099/15/OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/099/15/OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/099/15/OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+            "size_bytes": 37935402,
+            "etag": "\"c90d6d76733471c6fe97b64555be1ad2\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-09T15:15:30.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+            "size_bytes": 37935402,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-09",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/099/15/OR_ABI-L2-BRFF-M6_G19_s20260991500213_e20260991509522_c20260991515044.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 42.16316604614258,
+        "solar_azimuth": 50.17512893676758,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.08449999786535045,
+          "3": 0.27109999315143796,
+          "5": 0.23909999395982595
+        },
+        "time_coverage_start": "2026-04-09T18:00:21.1Z",
+        "time_coverage_end": "2026-04-09T18:09:51.9Z",
+        "scan_time_utc": "2026-04-09T18:05:06.560579+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/099/18/OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/099/18/OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/099/18/OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+            "size_bytes": 39687933,
+            "etag": "\"2edc03af5873f021e5a37ede18e56d3c\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-09T18:14:56.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+            "size_bytes": 39687933,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-09",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/099/18/OR_ABI-L2-BRFF-M6_G19_s20260991800211_e20260991809519_c20260991814425.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 33.683921813964844,
+        "solar_azimuth": 335.0476989746094,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.0560999985827948,
+          "3": 0.2249999943160219,
+          "5": 0.1801999954477651
+        },
+        "time_coverage_start": "2026-04-09T21:00:21.1Z",
+        "time_coverage_end": "2026-04-09T21:09:51.9Z",
+        "scan_time_utc": "2026-04-09T21:05:06.569970+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/099/21/OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/099/21/OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/099/21/OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+            "size_bytes": 20031554,
+            "etag": "\"356bbb08865f39c5f24b2325afd37bc5\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-09T21:14:55.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+            "size_bytes": 20031554,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-09",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/099/21/OR_ABI-L2-BRFF-M6_G19_s20260992100211_e20260992109519_c20260992114336.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 60.955020904541016,
+        "solar_azimuth": 284.54925537109375,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07159999819123186,
+          "3": 0.2563999935227912,
+          "5": 0.21649999453074997
+        },
+        "time_coverage_start": "2026-04-10T15:00:21.4Z",
+        "time_coverage_end": "2026-04-10T15:09:52.2Z",
+        "scan_time_utc": "2026-04-10T15:05:06.875762+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/100/15/OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/100/15/OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/100/15/OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+            "size_bytes": 38452883,
+            "etag": "\"929915cc140635394eff1c0e7fb4febc\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-10T15:15:20.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+            "size_bytes": 38452883,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-10",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/100/15/OR_ABI-L2-BRFF-M6_G19_s20261001500214_e20261001509522_c20261001514383.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 41.827945709228516,
+        "solar_azimuth": 50.42921829223633,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07519999810028821,
+          "3": 0.27669999300997006,
+          "5": 0.23889999396487838
+        },
+        "time_coverage_start": "2026-04-10T18:00:21.2Z",
+        "time_coverage_end": "2026-04-10T18:09:52.0Z",
+        "scan_time_utc": "2026-04-10T18:05:06.655402+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/100/18/OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/100/18/OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/100/18/OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+            "size_bytes": 40121267,
+            "etag": "\"d90342f4563c6191b8f6d518f594d57a\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-10T18:15:17.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+            "size_bytes": 40121267,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-10",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/100/18/OR_ABI-L2-BRFF-M6_G19_s20261001800212_e20261001809520_c20261001814361.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 33.35721969604492,
+        "solar_azimuth": 334.7122497558594,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.05909999850700842,
+          "3": 0.23009999418718508,
+          "5": 0.18329999536945252
+        },
+        "time_coverage_start": "2026-04-10T21:00:21.2Z",
+        "time_coverage_end": "2026-04-10T21:09:52.0Z",
+        "scan_time_utc": "2026-04-10T21:05:06.661477+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/100/21/OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/100/21/OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/100/21/OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+            "size_bytes": 19919767,
+            "etag": "\"3a21e82796c6dca2d123cbb0d028ea0a\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-10T21:15:10.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+            "size_bytes": 19919767,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-10",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/100/21/OR_ABI-L2-BRFF-M6_G19_s20261002100212_e20261002109520_c20261002114396.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 60.76438522338867,
+        "solar_azimuth": 284.1791687011719,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.06659999831754249,
+          "3": 0.2643999933206942,
+          "5": 0.21329999461158877
+        },
+        "time_coverage_start": "2026-04-11T15:00:21.5Z",
+        "time_coverage_end": "2026-04-11T15:09:52.3Z",
+        "scan_time_utc": "2026-04-11T15:05:06.963624+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/101/15/OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/101/15/OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/101/15/OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+            "size_bytes": 39053310,
+            "etag": "\"ecf4f39b7c9ec32749f36eb366e45f20\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-11T15:15:36.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+            "size_bytes": 39053310,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-11",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/101/15/OR_ABI-L2-BRFF-M6_G19_s20261011500215_e20261011509523_c20261011515063.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 41.49585723876953,
+        "solar_azimuth": 50.68611145019531,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07319999815081246,
+          "3": 0.27989999292913126,
+          "5": 0.23439999407855794
+        },
+        "time_coverage_start": "2026-04-11T18:00:21.3Z",
+        "time_coverage_end": "2026-04-11T18:09:52.1Z",
+        "scan_time_utc": "2026-04-11T18:05:06.748815+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/101/18/OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/101/18/OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/101/18/OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+            "size_bytes": 40547222,
+            "etag": "\"80d5ae0e12324198c42fbc17be4b0ce8\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-11T18:15:01.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+            "size_bytes": 40547222,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-11",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/101/18/OR_ABI-L2-BRFF-M6_G19_s20261011800213_e20261011809521_c20261011814459.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 33.03313446044922,
+        "solar_azimuth": 334.37457275390625,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.05119999870657921,
+          "3": 0.23179999414423946,
+          "5": 0.1754999955664971
+        },
+        "time_coverage_start": "2026-04-11T21:00:21.3Z",
+        "time_coverage_end": "2026-04-11T21:09:52.1Z",
+        "scan_time_utc": "2026-04-11T21:05:06.761599+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/101/21/OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/101/21/OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/101/21/OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+            "size_bytes": 20086640,
+            "etag": "\"21913f15a2b8977e504bdf1c753732f8\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-11T21:15:03.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+            "size_bytes": 20086640,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-11",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/101/21/OR_ABI-L2-BRFF-M6_G19_s20261012100213_e20261012109521_c20261012114419.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 60.57526779174805,
+        "solar_azimuth": 283.8106689453125,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07269999816344352,
+          "3": 0.2770999929998652,
+          "5": 0.22059999442717526
+        },
+        "time_coverage_start": "2026-04-12T15:00:21.6Z",
+        "time_coverage_end": "2026-04-12T15:09:52.4Z",
+        "scan_time_utc": "2026-04-12T15:05:07.066630+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/102/15/OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/102/15/OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/102/15/OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+            "size_bytes": 39328110,
+            "etag": "\"234d54178239b81b45461c23941fe179\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-12T15:15:03.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+            "size_bytes": 39328110,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-12",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/102/15/OR_ABI-L2-BRFF-M6_G19_s20261021500216_e20261021509524_c20261021514388.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 41.164520263671875,
+        "solar_azimuth": 50.94087219238281,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.08049999796639895,
+          "3": 0.27739999299228657,
+          "5": 0.23279999411897734
+        },
+        "time_coverage_start": "2026-04-12T18:00:21.4Z",
+        "time_coverage_end": "2026-04-12T18:09:52.2Z",
+        "scan_time_utc": "2026-04-12T18:05:06.852665+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/102/18/OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/102/18/OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/102/18/OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+            "size_bytes": 40731347,
+            "etag": "\"cb1186b880780aaddeafebd2ed2e21be\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-12T18:15:10.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+            "size_bytes": 40731347,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-12",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/102/18/OR_ABI-L2-BRFF-M6_G19_s20261021800214_e20261021809522_c20261021814541.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 32.71173095703125,
+        "solar_azimuth": 334.0348205566406,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.05889999851206085,
+          "3": 0.22939999420486856,
+          "5": 0.17569999556144467
+        },
+        "time_coverage_start": "2026-04-12T21:00:21.4Z",
+        "time_coverage_end": "2026-04-12T21:09:52.2Z",
+        "scan_time_utc": "2026-04-12T21:05:06.859185+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/102/21/OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/102/21/OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/102/21/OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+            "size_bytes": 20090780,
+            "etag": "\"d26163a2daa2c0b45764926dd5f01267\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-12T21:15:09.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+            "size_bytes": 20090780,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-12",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/102/21/OR_ABI-L2-BRFF-M6_G19_s20261022100214_e20261022109522_c20261022114436.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 60.387664794921875,
+        "solar_azimuth": 283.44390869140625,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07229999817354837,
+          "3": 0.26149999339395436,
+          "5": 0.20919999471516348
+        },
+        "time_coverage_start": "2026-04-13T15:00:21.7Z",
+        "time_coverage_end": "2026-04-13T15:09:52.5Z",
+        "scan_time_utc": "2026-04-13T15:05:07.161911+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/103/15/OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/103/15/OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/103/15/OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+            "size_bytes": 39007892,
+            "etag": "\"c7dde2e682f6436d92e4638bcb799e21\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-13T15:15:05.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+            "size_bytes": 39007892,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-13",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/103/15/OR_ABI-L2-BRFF-M6_G19_s20261031500217_e20261031509525_c20261031514352.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 40.839073181152344,
+        "solar_azimuth": 51.20341873168945,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.08209999792597955,
+          "3": 0.2820999928735546,
+          "5": 0.2322999941316084
+        },
+        "time_coverage_start": "2026-04-13T18:00:21.5Z",
+        "time_coverage_end": "2026-04-13T18:09:52.3Z",
+        "scan_time_utc": "2026-04-13T18:05:06.944351+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/103/18/OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/103/18/OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/103/18/OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+            "size_bytes": 40463043,
+            "etag": "\"d3810982b98a1947e1d6f5222a2a3371\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-13T18:15:18.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+            "size_bytes": 40463043,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-13",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/103/18/OR_ABI-L2-BRFF-M6_G19_s20261031800215_e20261031809523_c20261031814475.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 32.39306640625,
+        "solar_azimuth": 333.69317626953125,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.05909999850700842,
+          "3": 0.2331999941088725,
+          "5": 0.17719999552355148
+        },
+        "time_coverage_start": "2026-04-13T21:00:21.5Z",
+        "time_coverage_end": "2026-04-13T21:09:52.3Z",
+        "scan_time_utc": "2026-04-13T21:05:06.950829+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/103/21/OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/103/21/OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/103/21/OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+            "size_bytes": 19952734,
+            "etag": "\"8c5f880d477c07b897fe59fa82a01a60\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-13T21:15:38.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+            "size_bytes": 19952734,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-13",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/103/21/OR_ABI-L2-BRFF-M6_G19_s20261032100215_e20261032109523_c20261032115162.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 60.20157241821289,
+        "solar_azimuth": 283.0790100097656,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 204,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07349999814323382,
+          "3": 0.25899999345710967,
+          "5": 0.20799999474547803
+        },
+        "time_coverage_start": "2026-04-14T15:00:20.5Z",
+        "time_coverage_end": "2026-04-14T15:09:51.3Z",
+        "scan_time_utc": "2026-04-14T15:05:05.948671+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/104/15/OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/104/15/OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/104/15/OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+            "size_bytes": 39319374,
+            "etag": "\"db86420651b1e8b41884cf78427c7381\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-14T15:15:05.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+            "size_bytes": 39319374,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-14",
+        "target_hour": 15,
+        "scan": "ABI-L2-BRFF/2026/104/15/OR_ABI-L2-BRFF-M6_G19_s20261041500205_e20261041509513_c20261041514405.nc",
+        "strict": false,
+        "rejection_reasons": [
+          "dqf_not_notebook_strict"
+        ],
+        "solar_zenith": 40.52220153808594,
+        "solar_azimuth": 51.478782653808594,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.07099999820638914,
+          "3": 0.30149999238346936,
+          "5": 0.2267999942705501
+        },
+        "time_coverage_start": "2026-04-14T18:00:20.3Z",
+        "time_coverage_end": "2026-04-14T18:09:51.1Z",
+        "scan_time_utc": "2026-04-14T18:05:05.733885+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/104/18/OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/104/18/OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/104/18/OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+            "size_bytes": 40449377,
+            "etag": "\"5bd822282314837612a9b819925a55f7\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-14T18:15:09.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+            "size_bytes": 40449377,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-14",
+        "target_hour": 18,
+        "scan": "ABI-L2-BRFF/2026/104/18/OR_ABI-L2-BRFF-M6_G19_s20261041800203_e20261041809511_c20261041814457.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 32.07576370239258,
+        "solar_azimuth": 333.3570556640625,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      },
+      {
+        "row": 797,
+        "column": 2619,
+        "fixed_grid_x_rad": -0.005179986357688904,
+        "fixed_grid_y_rad": 0.10721199214458466,
+        "dqf": 16,
+        "sampled_pixel_center": {
+          "latitude": 39.1502685546875,
+          "longitude": -77.2435531616211
+        },
+        "sampled_pixel_corners": [
+          {
+            "latitude": 39.13690382935686,
+            "longitude": -77.25519221333856
+          },
+          {
+            "latitude": 39.136791353332015,
+            "longitude": -77.23091846862489
+          },
+          {
+            "latitude": 39.16374449775544,
+            "longitude": -77.25617728341183
+          },
+          {
+            "latitude": 39.16363184842506,
+            "longitude": -77.23189291305735
+          }
+        ],
+        "brf": {
+          "2": 0.053799998640897684,
+          "3": 0.2698999931817525,
+          "5": 0.18319999537197873
+        },
+        "time_coverage_start": "2026-04-14T21:00:20.3Z",
+        "time_coverage_end": "2026-04-14T21:09:51.1Z",
+        "scan_time_utc": "2026-04-14T21:05:05.738301+00:00",
+        "view_geometry_parameters": {
+          "satellite_longitude": -75.19999694824219,
+          "semi_major": 6378137.0,
+          "semi_minor": 6356752.31414,
+          "perspective_height": 35786023.0
+        },
+        "dataset_name": "OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+        "retrieval": {
+          "route": "full_file_cache",
+          "remote_object": {
+            "provider": "NOAA public Amazon S3 archive",
+            "bucket": "noaa-goes19",
+            "key": "ABI-L2-BRFF/2026/104/21/OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+            "s3_uri": "s3://noaa-goes19/ABI-L2-BRFF/2026/104/21/OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+            "https_url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-BRFF/2026/104/21/OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+            "size_bytes": 19847400,
+            "etag": "\"69a66d1b2c18cf6d366c98b6fcb634a1\"",
+            "etag_note": "S3 object identifier; not represented as a SHA-256 checksum",
+            "last_modified": "2026-04-14T21:14:59.000Z"
+          },
+          "partial_cache": null,
+          "whole_file": {
+            "local_path": "cache/OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+            "size_bytes": 19847400,
+            "sha256": null,
+            "checksum_status": "whole-file SHA-256 not computed by the existing full-file route"
+          },
+          "whole_file_sha256": null,
+          "whole_file_checksum_status": "whole-file SHA-256 not computed by the existing full-file route",
+          "partial_error": null
+        },
+        "date": "2026-04-14",
+        "target_hour": 21,
+        "scan": "ABI-L2-BRFF/2026/104/21/OR_ABI-L2-BRFF-M6_G19_s20261042100203_e20261042109511_c20261042114380.nc",
+        "strict": true,
+        "rejection_reasons": [],
+        "solar_zenith": 60.01383972167969,
+        "solar_azimuth": 282.7191467285156,
+        "projection_derived_pixel_center": {
+          "latitude": 39.150265776691576,
+          "longitude": -77.24354489634419
+        }
+      }
+    ],
+    "usable_counts": {
+      "15": 4,
+      "18": 5,
+      "21": 6
+    },
+    "observation_cache": {
+      "reused": 24,
+      "downloaded": 0,
+      "partial_remote": 0,
+      "partial_reused": 0,
+      "memory_reused": 0,
+      "total_selected": 24
+    },
+    "observation_retrieval": {
+      "policy": "auto",
+      "strategy": "existing full-file cache, then HTTP byte ranges, then full-file fallback",
+      "max_concurrency": 4,
+      "executor": "threads",
+      "connection_reuse": "shared bounded urllib3.PoolManager",
+      "scan_listing_reuses": 0,
+      "deduplicated_observations": 0,
+      "listing_request_count": 24,
+      "listing_bytes": 61104,
+      "full_download_request_count": 0,
+      "full_download_bytes": 0,
+      "range_request_count": 0,
+      "range_downloaded_bytes": 0,
+      "range_cache_hit_bytes": 0,
+      "full_file_fallbacks": 0,
+      "total_http_request_count": 24,
+      "total_http_downloaded_bytes": 61104,
+      "failure_semantics": "Network or remote-HDF5 failures raise an observation retrieval error; only successfully decoded observations can be classified as insufficient data.",
+      "checksum_semantics": "Remote S3 keys and ETags identify objects. Partial-data SHA-256 values cover only the listed byte ranges and are never represented as whole-file SHA-256 values."
+    },
+    "network_traffic": {
+      "navigation": {
+        "metadata_request_count": 1,
+        "metadata_payload_bytes": 0,
+        "metadata_latency_seconds": 0.293857,
+        "range_request_count": 0,
+        "range_payload_bytes": 0,
+        "range_request_seconds": 0.0,
+        "range_cache_hit_count": 8,
+        "range_cache_hit_bytes": 50,
+        "range_operation_count": 1,
+        "range_operation_wall_seconds": 0.002002,
+        "total_http_request_count": 1,
+        "total_http_payload_bytes": 0,
+        "navigation_latency_seconds": 0.295858,
+        "full_file_fallbacks": 0
+      },
+      "satellite_observations": {
+        "listing_request_count": 24,
+        "listing_bytes": 61104,
+        "full_download_request_count": 0,
+        "full_download_bytes": 0,
+        "range_request_count": 0,
+        "range_downloaded_bytes": 0,
+        "range_cache_hit_bytes": 0,
+        "full_file_fallbacks": 0,
+        "total_http_request_count": 24,
+        "total_http_downloaded_bytes": 61104
+      }
+    },
+    "location_name": "Montgomery County, Maryland",
+    "cache_identity": {
+      "pipeline_version": "leafview-notebook-compatible-v2-remote-navigation",
+      "query": {
+        "latitude": 39.1547,
+        "longitude": -77.2405,
+        "start": "2026-04-07",
+        "end": "2026-04-14"
+      },
+      "assets": {
+        "model": "815ed3b7cb92b95d598e24385527874864c5e6e282cf05d7dabbcca26391d4c6",
+        "igbp": "59ed29f607a989e67c379cb572901aed84a0087b5f35ba5c619e0d777cd4e1c5",
+        "solar_geometry": "1ebf9fe03be6de656554dbf5f094928b9f49265e291cf8cd53ecb9597e06e0bd",
+        "navigation": {
+          "descriptor_version": 1,
+          "name": "GOES_Navigation_2kmFD-GOES-East.nc",
+          "url": "https://media.githubusercontent.com/media/yiksinl/LAI-CAC/0d808c653be4cd45d0cd655b33e0874e9b326509/artifacts/reference/GOES_Navigation_2kmFD-GOES-East.nc",
+          "size_bytes": 735508871,
+          "sha256": "c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96",
+          "etag": "\"c08fa491793996ab204c936f4bb25f299f4cf18383b0bd3673db87f8bd780e96\"",
+          "git_commit": "0d808c653be4cd45d0cd655b33e0874e9b326509",
+          "format": "netCDF-4/HDF5; contiguous uncompressed arrays",
+          "shape": [
+            5424,
+            5424
+          ],
+          "array_order": "C",
+          "variables": {
+            "LandMask": {
+              "offset": 10116,
+              "dtype": "<i1",
+              "itemsize": 1
+            },
+            "Latitude": {
+              "offset": 29429892,
+              "dtype": "<f8",
+              "itemsize": 8
+            },
+            "LocalZenithAngle": {
+              "offset": 264788688,
+              "dtype": "<f8",
+              "itemsize": 8
+            },
+            "Longitude": {
+              "offset": 500147480,
+              "dtype": "<f8",
+              "itemsize": 8
+            }
+          }
+        }
+      },
+      "composite_days": 8,
+      "target_hours_utc": [
+        15,
+        18,
+        21
+      ],
+      "strict_quality_filter": "notebook_dqf_and_solar_zenith_lt_67_and_view_zenith_lt_70",
+      "key": "efcf03dfc6dd823cec0993ab20954d5a3d64e143e96cd7ca20e7384798264d4d"
+    },
+    "processing": {
+      "duration_seconds": 1.678,
+      "result_cache_hit": false,
+      "calculated_at_utc": "2026-09-13T20:26:43.007399Z"
+    }
+  },
+  "limitations": [],
+  "readiness": {
+    "estimate_execution": {
+      "ready": true,
+      "status": "ready",
+      "detail": "The supplied model and current preprocessing inputs can execute inference."
+    },
+    "preprocessing_validation": {
+      "verified": true,
+      "status": "verified",
+      "detail": "Feature construction matches the supplied notebook for the exact sampled pixel."
+    },
+    "historical_numerical_reproduction": {
+      "completed": false,
+      "status": "unverified",
+      "required_for_runtime": false,
+      "detail": "Historical feature-row and prediction reproduction has not been completed."
+    }
+  },
+  "scientific_concerns": [
+    "The supplied helper labels its solar azimuth as clockwise from north, but its quadrant formula produces a different convention. The formula is intentionally preserved for model compatibility."
+  ]
+}

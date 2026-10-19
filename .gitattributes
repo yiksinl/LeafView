@@ -1,0 +1,5 @@
+# Preserve exact bytes for checksum-verified reference assets.
+artifacts/reference/LAI_Machine_Learning_Project.ipynb -text
+artifacts/reference/S-NPP_VIIRS_GST_IGBP_8-Year_30arcsec.nc -text
+artifacts/reference/geometry_goes19.py -text
+artifacts/reference/lai_xgboost_model.json -text

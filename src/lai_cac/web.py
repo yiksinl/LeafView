@@ -293,11 +293,11 @@ def dependency_status(assets: dict) -> dict:
     missing = []
     approximations = []
     if assets["notebook"]["valid"]:
-        verified.append("Authoritative notebook")
+        notebook_status = "verified"
     elif assets["notebook"]["present"]:
-        missing.append({"key": "notebook", "name": "Authoritative notebook with expected checksum", "filename": "LAI_Machine_Learning_Project.ipynb"})
+        notebook_status = "modified"
     else:
-        missing.append({"key": "notebook", "name": "Authoritative notebook", "filename": "LAI_Machine_Learning_Project.ipynb"})
+        notebook_status = "not_installed"
     if assets["model"]["valid"]:
         verified.append("Checksum-verified 600-tree model")
     elif assets["model"]["present"]:
@@ -326,7 +326,6 @@ def dependency_status(assets: dict) -> dict:
     )
     preprocessing_verified = bool(
         operational_ready
-        and assets["notebook"]["valid"]
         and assets["navigation"]["valid"]
         and not discrepancies
     )
@@ -337,10 +336,6 @@ def dependency_status(assets: dict) -> dict:
         )
     elif operational_ready:
         headline = "Estimate execution is ready; supplied preprocessing validation remains provisional."
-    elif assets["notebook"]["valid"] and assets["model"]["valid"]:
-        count = len(missing)
-        noun = "input" if count == 1 else "inputs"
-        headline = f"Notebook and model verified; estimate execution is blocked pending {count} runtime {noun}."
     else:
         headline = "Required runtime inputs are missing or invalid; estimate execution is blocked."
     return {
@@ -351,6 +346,15 @@ def dependency_status(assets: dict) -> dict:
         "missing": missing,
         "approximations": approximations,
         "preprocessing_discrepancies": discrepancies,
+        "reference_materials": {
+            "notebook": {
+                "filename": "LAI_Machine_Learning_Project.ipynb",
+                "present": assets["notebook"]["present"],
+                "checksum_verified": assets["notebook"]["valid"],
+                "required_for_runtime": False,
+                "status": notebook_status,
+            },
+        },
         "operational_readiness": {
             "ready": operational_ready,
             "status": "ready" if operational_ready else "blocked",
@@ -361,7 +365,7 @@ def dependency_status(assets: dict) -> dict:
             "verified": preprocessing_verified,
             "status": "verified" if preprocessing_verified else "provisional",
             "detail": (
-                "Processing checks passed. LeafView uses the supplied model and reference files."
+                "Processing checks passed. LeafView uses checksum-verified runtime assets."
                 if preprocessing_verified else
                 "A difference from the supplied preprocessing remains unresolved."
             ),

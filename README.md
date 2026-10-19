@@ -32,8 +32,8 @@ LeafView reads only the exact byte ranges needed for the selected location.
 
 ```bash
 brew install python@3.14 libomp
-git clone https://github.com/yiksinl/LAI-CAC.git
-cd LAI-CAC
+git clone --depth 1 https://github.com/yiksinl/LeafView.git
+cd LeafView
 python3.14 -m venv .venv
 .venv/bin/pip install -e .
 .venv/bin/lai-cac audit
@@ -45,8 +45,8 @@ python3.14 -m venv .venv
 Install 64-bit Python 3.11 or newer and Git for Windows, then run:
 
 ```powershell
-git clone https://github.com/yiksinl/LAI-CAC.git
-Set-Location LAI-CAC
+git clone --depth 1 https://github.com/yiksinl/LeafView.git
+Set-Location LeafView
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e .
 .\.venv\Scripts\lai-cac.exe audit
